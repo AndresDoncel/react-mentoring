@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.container_app {
+  padding: 16px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container__buttons {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+}
+
+.container__date {
+  display: flex;
+  align-items: center;
+}
+
+.container__date h3 {
+  margin-right: 20px;
+}
+
+.container__buttons button {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 20px;
 }
